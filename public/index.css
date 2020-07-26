@@ -1,0 +1,120 @@
+.input{
+border: black solid 2px;
+background-image: url(back.jpg);
+width: 40%;
+height: 70%;
+position: absolute;
+top: 10%;
+/* margin-top: 5%; */
+margin-left: 27%;
+/* padding-top: 5%;
+padding-left: 5%; */
+
+
+
+}
+.input-text{
+    /* padding-top: 5%; */
+   /* margin-left: 30%; */
+   position: relative;
+   width: 50%;
+   margin-bottom: 3%;
+   margin-left: 20%;
+   height: 10%;
+  margin-top: 5%;
+  text-align: center;
+  color: black;
+  background-color:rgb(235, 207, 50);
+  border-bottom: black 2px solid;
+  box-shadow: none;
+}
+.addbutton{
+position: relative;
+top: 2px;
+left: 25%;
+width: 20%;
+height: 10%;
+background-color:rgb(235, 207, 50);
+border-radius: 0% 50% 0% 50% ;
+border: solid black 2px;
+font-weight: bold;
+font-size: 0.9em;
+}
+.deleteall{
+    position: relative;
+top: 2px;
+left: 25%;
+width: 20%;
+height: 8%;
+height: 10%;
+font-weight: bold;
+background-color:rgb(235, 207, 50);
+border-radius: 0% 50% 0% 50% ;
+border: solid black 2px;
+font-weight: bold;
+font-size: 0.9em;
+/* font-size: 0.9em; */
+/* background: linear-gradient(to right, rgb(30, 231, 30), rgb(66, 66, 235), rgb(245, 245, 70), red, orange, green); */
+/* border-radius: 0% 50% 0% 50% ; */
+/* box-shadow: chartreuse 5px 30px 30px; */
+/* border-style: none;
+border: double 5px; */
+/* border-color: ; */
+}
+#list{
+    list-style: none;
+}
+.deleteall:hover{
+    background-color: black;
+    color:orange;
+    border: 2px solid orange;
+     box-shadow: white 5px 30px 30px; 
+}
+.addbutton:hover{
+    background-color: black;
+    color:orange;
+    border: 2px solid orange;
+     box-shadow: white 5px 30px 30px; 
+}
+.input-text:hover{
+    background-color: black;
+    color:orange;
+    border: 2px solid orange;
+     box-shadow: white 5px 30px 30px; 
+}
+.editbtn{
+width: 20%;
+height: 8%;
+height: 10%;
+font-weight: bold;
+background-color:rgb(235, 207, 50);
+border-radius: 0% 50% 0% 50% ;
+border: solid black 2px;
+font-weight: bold;
+font-size: 0.9em;
+}
+.editbtn:hover{
+    background-color: black;
+    color:orange;
+    border: 2px solid orange;
+     box-shadow: white 5px 30px 30px; 
+}
+.deletebtn{
+width: 20%;
+height: 8%;
+box-shadow: none;
+height: 10%;
+font-weight: bold;
+background-color:rgb(235, 207, 50);
+border-radius: 0% 50% 0% 50% ;
+border: solid black 2px;
+font-weight: bold;
+font-size: 0.9em;
+
+}
+.deletebtn:hover{
+    background-color: black;
+    color:orange;
+    border: 2px solid orange;
+     box-shadow: white 5px 30px 30px; 
+}
